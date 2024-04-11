@@ -1,4 +1,4 @@
-import 'package:api_all/screens/get_screen.dart';
+import 'package:api_all/screens/put_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GetScreen(),
+      home: PutScreen(),
     );
   }
 }
